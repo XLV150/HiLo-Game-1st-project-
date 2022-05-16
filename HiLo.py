@@ -4,7 +4,7 @@ highest = 100
 answer = random.randint(1, 100)
 guess = 0
 
-print(answer)
+print(answer)   # TO SHOW THE RANDOM NUMBER DELETE THIS WHEN YOU WANT ACTUALLY GUESS.
 
 user_guess = int(input("Please guess a number between 1 and {}: ".format(highest)))
 guess += 1
